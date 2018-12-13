@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Mono:400,500,700|Roboto+Slab');
+
+body {
+	font-family:'Raleway', sans-serif;
+	font-size: 12px;
+	color: #666;
+	margin: 0;
+}
+
+
+header{
+	background-color: #FFFFFF;
+	padding: 10px 0;
+}
+
+#sec-slides h4{
+	color: #C2EFB3;
+}
+
+#sec-slides h1{
+	color: #7EB2DD;
+	font-size: 40px;
+}
+
+#sec-hero{
+	background-image: url(../img/Background-Conect-Inc.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+
+#sec-heroin{
+	background-image: url(../img/low-angle-view-of-modern-building.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 100px;
+	padding-bottom: 90px;
+}
+
+#sec-heroin h1{
+color: #FFFFFF;
+}
+
+#sec-heroin h4{
+color: #EDFFEC;
+}
+
+.carousel-caption{
+	margin: 300px;
+	text-align: center;
+}
+
+
+#sec-hero h2{
+	margin-top: 20px;
+	font-size: 40px;
+	color: #FFFFFF;
+	padding-bottom: 60px;
+}
+
+#sec-practica {
+	background-image: url(../img/Fodo-01.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom: 20px;
+}
+
+#sec-practica h2{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 35px;
+	text-align: center;
+	color: #C2EFB3;
+}
+
+.padre {
+position: relative;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.hijo {
+position: absolute;
+left: 0;
+width: 100%;
+color: #FFFFFF;
+text-align: center;
+opacity: 0;
+transition: all 0.3s ease-in-out;
+bottom: 100%;
+}
+
+.bg-overlay{
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+background-color: rgba(0,0,0,0.60);
+transition: all 0.3s ease-in-out;
+opacity: 0;
+}
+
+.padre:hover .bg-overlay{
+opacity: 1;
+transition: all 0.3s ease-in-out; 
+}
+
+.padre:hover .hijo{
+opacity: 1;
+transition: all 0.3s ease-in-out;
+bottom: 50%;
+transform: translateY(50%);
+}
+
+.sec-espacio{
+	padding-top:10px;
+	padding-bottom: 50px;
+	display: block;
+}
+
+#sec-noticia {
+	background-color: #EDFFEC;
+	padding: 50px;
+}
+
+#sec-noticia h2{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 30px;
+	color: #3F4045
+}
+
+#sec-noticia p{
+	color: #30292F
+}
+
+.btn-transparente{
+	align-content: center;
+	background-color: #3F4045;
+	color: #EDFFEC;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding: 7px 40px;
+}
+.btn-transparente:hover{
+	background-color: #30292F;
+	color: #EDFFEC;
+}
+
+.btn{
+	left: 30px;
+}
+
+#sec-form{
+	background-image: url(../img/woman-working-on-laptop-with-notebook-and-mobile-phone-on-table.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom: 25px;
+}
+
+#sec-form h2 {
+	color: #EDFFEC;
+	text-align: center;
+	margin: 40px;
+	font-size: 30px;
+	background-color: #3F4045;
+	border-radius: 25px;
+}
+
+#sec-form {
+	color: #fff;
+	margin: 40px;
+}
+#footer{
+	padding: 20px 0;
+    padding-top: 50px;
+}
+
+#footer-menu{
+	background-color: #000000;
+	padding: 30px;
+	color: #3891A6;
+}
+
+.logo img {
+	padding-top: 8px;
+}
+
+#sec-somos{
+padding-top: 25px;
+padding-bottom: 25px;
+color: #3891A6;
+}
+
+#sec-somos .bg-image{
+border-right: 1px solid #eee;
+padding-top: 25px;
+}
+
+
+.titulo{
+font-size: 45px;
+text-transform: uppercase;
+letter-spacing: 4px;
+color: #445E93;
+}
+
+#sec-somos h3{
+font-size: 11px;
+letter-spacing: 2px;
+text-transform: uppercase;
+text-align: left;
+color: #111;
+font-weight: 600;
+padding-bottom: 15px;
+padding-top: 15px;
+}
+
+#sec-somos h4{
+font-size: 20px;
+padding-bottom: 20px;
+}
+
+.icon {
+font-size: 30px;
+}
+
+#sec-somos p{
+font-size: 11px;
+letter-spacing: 2px;
+text-align: justify; 
+}
+
+#sec-cont{
+text-align: center;
+background-position: center;;
+color: #30292f;
+padding-top: 30px;
+}
+
+#sec-cont h3{
+letter-spacing: 4px;
+font-weight: 600;
+font-size: 40;
+}
+
+#sec-cont h5{
+font-size: 15px;
+font-style: italic;
+margin-top: 10px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.iconb{
+font-size: 50px;
+}
+
